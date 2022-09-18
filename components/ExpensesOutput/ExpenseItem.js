@@ -19,14 +19,14 @@ function ExpenseItem(props) {
       style={({ pressed }) => pressed && styles.pressed}
     >
       <View style={styles.expenseItem}>
-        <View style={styles.amountContainer}>
-          <Text style={styles.amount}>{props.amount}</Text>
-        </View>
         <View>
           <Text style={[styles.textBase, styles.description]}>
             {props.description}
           </Text>
           <Text style={styles.textBase}>{getFormattedDate(props.date)}</Text>
+        </View>
+        <View style={styles.amountContainer}>
+          <Text style={styles.amount}>{props.amount}</Text>
         </View>
       </View>
     </Pressable>
