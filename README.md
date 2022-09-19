@@ -5,3 +5,13 @@ Mobile app to manage your expenses
       alt="app image"
       style="height: 500px"
     />
+    <img
+      src="https://github.com/RoiYehezkel/Expense-App/blob/main/assets/images/image2.jpg?raw=true"
+      alt="app image"
+      style="height: 500px"
+    />
+    <img
+      src="https://github.com/RoiYehezkel/Expense-App/blob/main/assets/images/image3.jpg?raw=true"
+      alt="app image"
+      style="height: 500px"
+    />
